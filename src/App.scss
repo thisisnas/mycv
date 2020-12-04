@@ -1,0 +1,101 @@
+@import '~bootstrap/scss/bootstrap';
+$bc: #f8f8f8;
+$c: rgb(43, 41, 41);
+$tc: #0077ed;
+$nav-bc: #f23e02;
+
+body {
+  color: $c;
+  background-color: $bc;
+}
+
+ul {
+  margin-left: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+
+.homeManage {
+  margin: 0% 5%;
+}
+.stronger {
+  font-weight: bolder;
+}
+
+.champs {
+  width: 17%;
+}
+.skills-line {
+  width: 100%;
+}
+
+.gap-top {
+  margin-top: 70px;
+}
+
+.title {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.alt {
+  background-color: $bc;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.progress-bar {
+  background-color: $tc;
+  color: $bc;
+}
+
+.container {
+  width: 100sv;
+}
+
+.no-margin {
+  margin-left: 0;
+  margin-right: 0;
+}
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.border {
+  border: rgb(150, 23, 23) 2px solid;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(2vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+
+.fade-in.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.nav-background {
+  background-color: $nav-bc;
+}
+
+.nav-hide {
+  top: -80px;
+  transition: top 0.6s;
+  width: 100vw;
+}
+
+.nav-visible {
+  opacity: 100;
+  transition: 0.4s;
+  width: 100vw;
+}

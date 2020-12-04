@@ -1,0 +1,21 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "this is the back end for a cv website",
+  "main": "server.js",
+ 
+  "author": "nasser",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.22",
+    "mongoose-schema-extend": "^0.2.2",
+    "nodemon": "^2.0.4"
+  },
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
